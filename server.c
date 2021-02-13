@@ -9,6 +9,7 @@
 #include <sys/wait.h>
 #include <sqlite3.h>
 #define PORT 2024
+
 void handler(int sig);
 void crearelib(sqlite3* db);
 void recommendation(sqlite3* db, int client, char aux1[100]);
